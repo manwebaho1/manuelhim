@@ -1,0 +1,10 @@
+string=input("Enter The String:")
+lowerC=0
+upperC=0
+for character in string:
+    if character.islower():
+        lowerC=lowerC+1
+    elif character.isupper():
+        upperC=upperC+1
+print("Lower Count: ",lowerC)
+print("Upper Count: ",upperC)
