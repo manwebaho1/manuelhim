@@ -1,0 +1,27 @@
+
+print()
+print(" \t EMPLOYEES YEARS IN SERVICE AND OFFICE");
+print()
+
+years = int(input("Enter the years of service:"))
+office = str(input("Enter the office:"))
+
+if years >= 10:
+    if office.upper() == "IT":
+        print(f"Amount Given: 10000")
+    elif office.upper() == "ACCT":
+        print(f"Amount Given: 12000")
+    elif office.upper() == "HR":
+        print(f"Amount Given: 15000")
+
+if years <= 10:
+    if office.upper() == "IT":
+        print(f"Amount Given: 5000")
+    elif office.upper() == "ACCT":
+        print(f"Amount Given: 6000")
+    elif office.upper() == "HR":
+        print(f"Amount Given: 7500")
+
+print()
+print("\t ENF OF THE PROGRAM");
+print()
